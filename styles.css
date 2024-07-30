@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px; /* Increase max-width to accommodate multiple tables */
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#matches ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#matches li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#standings {
+    margin-top: 20px;
+}
+
+.standings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between tables */
+}
+
+.standings-table {
+    flex: 1;
+    min-width: 300px; /* Minimum width for each table */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.standings-table h3 {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.standings-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.standings-table th, .standings-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}

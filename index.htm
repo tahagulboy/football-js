@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Football Matches and Standings</h1>
+        <div id="matches">
+            <h2>Upcoming Matches</h2>
+            <ul id="matches-list"></ul>
+        </div>
+        <div id="standings">
+            <h2>League Standings</h2>
+            <div class="standings-container">
+                <div class="standings-table" id="premier-league">
+                    <h3>Premier League</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Team</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="standings-table" id="seria-a">
+                    <h3>Seria A</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Team</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <!-- Add more leagues as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
